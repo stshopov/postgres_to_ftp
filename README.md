@@ -3,6 +3,7 @@ This simple script use pg_dump to make archive and then sent this archive to ftp
 How to run the script: <br/>
 Before to run the script on the machine you need to have installed postgres-client <br/>
  - sudo apt-get install postgresql-client <br/>
+
 Then run the script with python and correct values for all parameters <br/>
  - python3.6 sql_to_ftp.py --ps_host "<host ip>" --ps_user "<user>" --database "<some db>" --ps_password "<mega secret password>" --ftp_host "<host ip>" --ftp_user "<user>" --ftp_password "<super secret password>" <br/>
  <br/>
